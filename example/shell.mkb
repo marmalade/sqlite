@@ -1,0 +1,13 @@
+#!/usr/bin/env mkb
+
+package sqlite
+
+subproject sqlite
+
+define SQLITE_OMIT_LOAD_EXTENSION
+
+files
+{
+	("../upstream")
+	shell.c
+}

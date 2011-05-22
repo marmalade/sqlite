@@ -1,0 +1,39 @@
+Package: sqlite
+Version: 3.6.10
+Revision: 4
+Maintainer: Airplay Package Team <packages@ideaworkslabs.com>
+Mkbs: sqlite.mkb
+Description: |
+ sqlite3 library for database manipulation.
+Contents:
+ - upstream/sqlite3.h : h/sqlite3.h
+ - upstream/sqlite3ext.h : h/sqlite3ext.h
+ - sqlite.mkf
+ - docs/sqlite.defines.txt
+ - README.txt
+ - lib/arm/sqlite.a
+ - lib/arm/sqlite_d.a
+ - lib/arm/libsqlite_d.a
+ - lib/arm/libsqlite.a
+Contents-src:
+ - README.txt
+ - sqlite.mkf
+ - sqlite.mkb
+ - sqlite-build.mkf
+ - docs
+ - example/shell.mkb
+ - example/sqlite3_example.mkb
+ - example/data/app.icf
+ - example/CppSQLite3Demo.cpp
+ - example/CppSQLite3.cpp
+ - example/CppSQLite3.h
+Contents-platform:
+  win32:
+    - lib/x86/sqlite.lib
+    - lib/x86/sqlite_d.lib
+  linux:
+    - lib/x86/linux/libsqlite.a
+    - lib/x86/linux/libsqlite_d.a
+  macosx:
+    - lib/x86/darwin/libsqlite.a
+    - lib/x86/darwin/libsqlite_d.a

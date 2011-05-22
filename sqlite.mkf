@@ -1,0 +1,17 @@
+# Public mkf file for sqlite package
+
+define SQLITE_OMIT_LOAD_EXTENSION
+
+includepath h
+
+files
+{
+    (h)
+    sqlite3ext.h
+    sqlite3.h
+
+    (docs)
+    sqlite.defines.txt
+}
+
+library ".,sqlite"

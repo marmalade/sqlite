@@ -1,0 +1,23 @@
+#!/usr/bin/env mkb
+
+package sqlite
+
+subprojects
+{
+    sqlite
+    iwutil
+}
+
+files
+{
+    CppSQLite3.cpp
+    CppSQLite3.h
+    CppSQLite3Demo.cpp
+}
+
+includepaths
+{
+    h
+}
+
+

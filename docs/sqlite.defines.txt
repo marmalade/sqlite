@@ -1,0 +1,6 @@
+SQLITE_THREADSAFE           When compiled with SQLITE_THREADSAFE=0 all mutexing code is omitted and it is unsafe to use SQLite in a multithreaded program.
+SQLITE_OS_OTHER             No default OS code, we provide our own virtual file system (VFS).
+SQLITE_OS_UNIX              Use the unix code for VFS
+SQLITE_OMIT_LOAD_EXTENSION  We do not support loading of DLLs, and hence can't load extensions.
+SQLITE_ENABLE_LOCKING_STYLE     xxx
+SQLITE_DEBUG                Debug build
