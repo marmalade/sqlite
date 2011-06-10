@@ -1,0 +1,4 @@
+upstream
+lib
+build_sqlite_*
+sqlite-amalgamation-*.tar.gz
