@@ -3,4 +3,4 @@ sqlite (3.6.10-4)
   * correct name of library in sqlite.mkf
   * add defines.txt documentation for SQLITE_OMIT_LOAD_EXTENSION
 
- -- Airplay Package Team <packages@ideaworkslabs.com>  Fri, 29 Apr 2011 11:58:47 -0700
+ -- Marmalade Package Team <packages@ideaworkslabs.com>  Fri, 29 Apr 2011 11:58:47 -0700
