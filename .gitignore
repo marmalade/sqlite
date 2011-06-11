@@ -2,3 +2,5 @@ upstream
 lib
 build_sqlite_*
 sqlite-amalgamation-*.tar.gz
+sqlite_*.mdev
+sqlite_*.msrc

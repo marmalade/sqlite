@@ -1,6 +1,6 @@
 upstream
 {
-	url="http://source.ideaworkslabs.com/upstream/sqlite-amalgamation-3.6.10.tar.gz"
+	url="http://source.madewithmarmalade.com/upstream/sqlite-amalgamation-3.6.10.tar.gz"
 }
 
 includepaths
