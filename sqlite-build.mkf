@@ -1,33 +1,34 @@
 upstream
 {
-	url="http://source.madewithmarmalade.com/upstream/sqlite-amalgamation-3.6.10.tar.gz"
+    url="http://source.madewithmarmalade.com/upstream/sqlite-amalgamation-3.6.10.tar.gz"
+    checkin=git
 }
 
 includepaths
 {
-	"upstream"
+    "upstream"
 }
 
 defines
 {
-	SQLITE_THREADSAFE=0
-	SQLITE_OS_UNIX=1
-	SQLITE_OMIT_LOAD_EXTENSION
-	SQLITE_ENABLE_LOCKING_STYLE=0
+    SQLITE_THREADSAFE=0
+    SQLITE_OS_UNIX=1
+    SQLITE_OMIT_LOAD_EXTENSION
+    SQLITE_ENABLE_LOCKING_STYLE=0
 }
 
 debug_defines
 {
-	SQLITE_DEBUG
+    SQLITE_DEBUG
 }
 
 files
 {
-	(docs)
-	sqlite.defines.txt
+    (docs)
+    sqlite.defines.txt
 
-	["source"]
-	("upstream")
-	sqlite3.h
-	sqlite3.c
+    ["source"]
+    ("upstream")
+    sqlite3.h
+    sqlite3.c
 }
