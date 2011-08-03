@@ -1,6 +1,4 @@
 Package: sqlite
-Version: 3.6.10
-Revision: 5
 Maintainer: Marmalade Package Team <packages@ideaworkslabs.com>
 Mkbs: sqlite.mkb
 Libraries: sqlite
